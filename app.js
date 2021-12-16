@@ -18,7 +18,7 @@ tl.fromTo(
   ".music-note",
   { scale: 0.5 },
   { scale: 0, opacity: 0, duration: 1 },
-  "-3"
+  "-=3"
 );
 tl.fromTo(".title", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".sub-title", { opacity: 0 }, { opacity: 1, duration: 1 });
